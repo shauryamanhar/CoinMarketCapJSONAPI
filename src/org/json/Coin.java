@@ -104,5 +104,13 @@ public class Coin{
 		this.percentChange7D = percentChange7D;
 	}
 	
-	
+	@Override
+	public String toString() {
+		String str =""+
+				this.id+":"+this.name+":"+this.symbol+":"+this.rank+":"+
+				this.priceUsd+":"+this.priceBtc+":"+this._24hVolumeUsd+this.marketCapUsd+":"+
+				this.availableSupply+":"+this.totalSupply+":"+this.maxSupply+":"+this.percentChange1H+":"+
+				this.percentChange24H+":"+this.percentChange7D;
+		return str;
+	}
 }

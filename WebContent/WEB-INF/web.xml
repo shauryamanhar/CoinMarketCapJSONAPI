@@ -9,4 +9,14 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>GetCoinDetails</display-name>
+    <servlet-name>GetCoinDetails</servlet-name>
+    <servlet-class>org.json.GetCoinDetails</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetCoinDetails</servlet-name>
+    <url-pattern>/GetCoinDetails</url-pattern>
+  </servlet-mapping>
 </web-app>
